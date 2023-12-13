@@ -1,0 +1,158 @@
+.item_top{
+display: flex;
+width: 1200px;
+height: 280px;
+margin: 0 auto;
+justify-content: center;
+justify-content: space-between;
+margin-top: 120px;
+gap: 20px;
+}
+.top_ul{   
+width: 400px;
+height: 280px;
+flex-shrink: 0;
+border-radius: 10px;
+margin-top: 28px;
+padding: 20px;
+align-items: flex-start;
+gap: 40px; 
+}
+
+
+.p_top1{
+font-size: 25px;
+font-style: italic;
+color: green;
+}
+
+.text_top{
+color: var(--Text, #0D0842);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text_top6{
+width: 185px;
+height: 33px;
+flex-shrink: 0;
+color: rgba(13, 8, 66, 0.52);
+font-family: Nunito Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.top_bt{
+display: inline-flex;
+padding: 7px 20px 7px 15px;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--General-color, #FFCE1A);
+}
+.top_like{
+width: 33px;
+height: 33px;
+flex-shrink: 0;
+border-radius: 50px;
+}
+
+
+
+.item2_img{
+ margin-right: 200px;
+}
+.top_ul2{
+width: 400px;
+height: 280px;
+padding: 50px;
+}
+
+.p_top12{
+font-size: 25px;
+font-style: italic;
+color: green;
+}
+
+.text_top2{
+color: var(--Text, #0D0842);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text_top62{
+width: 185px;
+height: 33px;
+flex-shrink: 0;
+color: rgba(13, 8, 66, 0.52);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+    
+.top_bt2{
+display: inline-flex;
+padding: 7px 20px 7px 15px;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--General-color, #FFCE1A);
+}
+.top_like2{
+width: 33px;
+height: 33px;
+flex-shrink: 0;
+border-radius: 50px;
+}
+
+
+        
+.top_ul3{
+width: 400px;
+height: 280px;
+flex-shrink: 0;
+padding: 50px;
+}
+
+.p_top13{
+font-size: 25px;
+font-style: italic;
+color: green;
+}
+.text_top3{
+color: var(--Text, #0D0842);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text_top63{
+width: 185px;
+height: 33px;
+ flex-shrink: 0;
+color: rgba(13, 8, 66, 0.52);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.top_bt3{
+display: inline-flex;
+padding: 7px 20px 7px 15px;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--General-color, #FFCE1A);
+}
+.top_like3{
+width: 33px;
+height: 33px;
+flex-shrink: 0;
+border-radius: 50px;
+}
