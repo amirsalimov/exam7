@@ -1,8 +1,4 @@
-import React from 'react'
-import { data } from './const'
-import { useParams } from 'react-router'
-
-export const Single = () => {
+export const Like = () => {
     const allData = []
     const datas = JSON.parse(localStorage.getItem("product"))
     datas?.map(item => {
@@ -22,7 +18,7 @@ export const Single = () => {
 
     return (
         <div>
-            <div><h1>Single</h1></div>
+            <div><h1>Like</h1></div>
             <div>
                 <img src={img} alt="asdf" />
                 <h4>{title}</h4>
@@ -32,21 +28,3 @@ export const Single = () => {
         </div>
     )
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -20,10 +20,10 @@ function Map() {
   const [currentMap, setCurrentMap] = useState(0);
   return (
     <div className="map-container">
-      <div className="card">
+      <div className="card" key={"SDfsf"}>
         {maps.map((map, index) => {
           return (
-            <button className="mapBTN" onClick={() => setCurrentMap(index)}>{map.button}</button>
+            <button key={index} className="mapBTN" onClick={() => setCurrentMap(index)}>{map.button}</button>
           );
         })}
       </div>

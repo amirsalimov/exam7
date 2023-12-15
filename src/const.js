@@ -1,3 +1,4 @@
+import img2 from "./assets/react.svg";
 export const data = [
   {
     id: 1,
@@ -11,6 +12,7 @@ export const data = [
     name: "I Want a Better Catastrophe...",
     title: "With global warming projected to rocket past the...",
     price: "26.99",
+    img: img2,
   },
   {
     id: 3,
@@ -19,4 +21,3 @@ export const data = [
     price: "40.99",
   },
 ];
-

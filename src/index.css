@@ -5,4 +5,5 @@
 }
 body {
   background: var(--main-bg-page, #cdc2c2a1);
+  padding: 0 15px;
 }

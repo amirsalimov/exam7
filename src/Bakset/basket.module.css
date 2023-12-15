@@ -1,0 +1,19 @@
+.cardBox {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-top: 25px;
+}
+.cardItem {
+  width: 200px;
+  height: 250px;
+  border: 1px solid rgb(150, 150, 150);
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 14px 16px rgba(0, 0, 0, 0.6);
+}

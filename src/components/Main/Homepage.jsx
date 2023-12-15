@@ -4,7 +4,7 @@ export default function Homepage() {
   return (
     <div className="home_page">
       <div className="div_img">
-        <img className="div_img_home" src={book_nav} alt="" />
+        <img className="div_img_home" src={book_nav} width={50} alt="asdf" />
       </div>
       <h1 className="home_text">New Releases This Week</h1>
       <h6 className="home_h6">
