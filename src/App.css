@@ -1,10 +1,10 @@
-nav{
+nav {
   width: 1300px;
   height: 100px;
-  border: 1px solid ;
+  border: 1px solid;
   display: flex;
   margin: 0 auto;
   list-style: none;
-  justify-content: space-around; 
+  justify-content: space-around;
   align-items: center;
 }

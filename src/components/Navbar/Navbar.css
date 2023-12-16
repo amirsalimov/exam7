@@ -1,23 +1,18 @@
-a{
+a {
   text-decoration: none;
 }
 
 .navbar {
-
   width: 1200px;
   height: 70px;
   margin: 0 auto;
   align-items: center;
   margin-bottom: 20px;
-
-
 }
 .nav {
   display: flex;
   justify-content: space-around;
   list-style: none;
-
-
 }
 input {
   width: 450px;

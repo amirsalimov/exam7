@@ -7,10 +7,8 @@ import Homepage from "../Main/Homepage";
 import Navbar from "../Navbar/Navbar";
 import { useNavigate } from "react-router";
 
-
-
 export default function item() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -24,11 +22,17 @@ export default function item() {
               <h2 className="text_top3">{item.name}</h2>
               <h6 className="text_top63">{item.title}</h6>
               <p className="p_top1"> discount: $ {item.price}</p>
-              <button className="top_bt3" onClick={(handleInputChange) => navigate(`/single/${item.id}`)}>
+              <button
+                className="top_bt3"
+                onClick={(handleInputChange) => navigate(`/single/${item.id}`)}
+              >
                 Add to basket
               </button>
 
-              <button className="top_like3"  onClick={(handleInputChange) => navigate(`/Like/${item.id}`)}>
+              <button
+                className="top_like3"
+                onClick={(handleInputChange) => navigate(`/Like/${item.id}`)}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="33"
@@ -55,6 +59,5 @@ export default function item() {
         })}
       </div>
     </div>
-
   );
 }

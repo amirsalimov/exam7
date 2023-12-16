@@ -23,7 +23,13 @@ function Map() {
       <div className="card" key={"SDfsf"}>
         {maps.map((map, index) => {
           return (
-            <button key={index} className="mapBTN" onClick={() => setCurrentMap(index)}>{map.button}</button>
+            <button
+              key={index}
+              className="mapBTN"
+              onClick={() => setCurrentMap(index)}
+            >
+              {map.button}
+            </button>
           );
         })}
       </div>

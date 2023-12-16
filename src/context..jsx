@@ -1,23 +1,19 @@
 import { useContext } from "react";
 import { createContext } from "react";
 
-
 export const AppContext = createContext();
 const initialState = {
-    name: "John"
-}
-
+  name: "John",
+};
 
 export const AppProvider = ({ children }) => {
-    return (
-        <AppContext.Provider value={initialState}>
-            {children}
-        </AppContext.Provider>
-    )
-}
+  return (
+    <AppContext.Provider value={initialState}>{children}</AppContext.Provider>
+  );
+};
 
 export const useGlobalContext = () => {
-    return useContext(AppContext)
-}
+  return useContext(AppContext);
+};
 
 // export  {AppContext, AppProvider}

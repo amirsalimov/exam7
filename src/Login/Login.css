@@ -1,24 +1,23 @@
-.login_nav{
-    width: 500px;
-    height: 230px;
-    justify-content: center;
-    margin: 0 auto;
-    justify-content: center;
-background-color: darkkhaki;
-margin-top: 100px;
-padding: 15px;
+.login_nav {
+  width: 500px;
+  height: 230px;
+  justify-content: center;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: darkkhaki;
+  margin-top: 100px;
+  padding: 15px;
 }
-.login_btn{
-    width: 450px;
-    height: 40px;
-    color: black;
-    margin-top: 15px;
-    background-color: cornflowerblue;
+.login_btn {
+  width: 450px;
+  height: 40px;
+  color: black;
+  margin-top: 15px;
+  background-color: cornflowerblue;
 }
-.input{
-    margin-top: 50px;
+.input {
+  margin-top: 50px;
 }
-.account_create{
-    margin-left: 100px;
-
+.account_create {
+  margin-left: 100px;
 }

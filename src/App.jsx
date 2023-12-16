@@ -5,18 +5,13 @@ import Homepage from "./components/Main/Homepage";
 import Navbar from "./components/Navbar/Navbar";
 import Item from "./components/Item/Item.jsx";
 import Map from "./map/map.jsx";
-import Login from "./Login/Login.jsx"
+import Login from "./Login/Login.jsx";
 import { Single } from "./Single";
 import { Basket } from "./Bakset/Basket.jsx";
 import { Like } from "./Like/Like.jsx";
 
-
-
-
 function App() {
-
   return (
-     
     <>
       <BrowserRouter>
         <Routes>
@@ -30,7 +25,7 @@ function App() {
           <Route path="/Item" element={<Item />} />
         </Routes>
       </BrowserRouter>
-   
+
       <Map />
     </>
   );
